@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+    </head>
+<body>
+<!-- .............................. -->
+    <div class="custom-section">
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <!-- Add more social icons as needed -->
+        </div>
+
+        <div class="info-section">
+            <div>
+                Phone: 123-456-7890
+            </div>
+            <div>
+               FAQs
+            </div>
+            <div>
+                Information
+            </div>
+        </div>
+    </div>
+<!-- ................... -->
+<div class="search-section">
+    <div class="logo">
+        <!-- Add your logo here -->
+        <img src="logo.png" alt="Website Logo">
+    </div>
+
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search...">
+        <i class="fas fa-search search-icon" onclick="toggleSearch()"></i>
+        <i class="fas fa-times cancel-icon" onclick="toggleSearch()"></i>
+    </div>
+</div>
+<!-- ..................navbar...................... -->
+
+<nav>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <div class="menu-links">
+      <a href="#">Home</a>
+      <a href="#">Our Services</a>
+      <a href="#">SOLAR PANELS INSTALLATION</a>
+      <a href="#">BOOK NOW</a>
+      <a href="#">PRICING</a>
+      <a href="#">ABOUT US</a>
+      <a href="#">CONTACT US</a>
+    </div>
+  </nav>
+
+  <!-- ..............crousel.................... -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="slide1.jpg" alt="Los Angeles" style="width:100%; height: 60vh;">
+        <div class="carousel-caption">
+         <button style="padding: 12px 25px;background-color: #fbd232;
+         color: white; border: none;border-radius: 10px; font-size: 20px;">
+         Book Now</button>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="slide2.jpg" alt="Chicago" style="width:100%; height: 60vh;">
+        <div class="carousel-caption">
+            <button style="padding: 12px 25px;background-color: #fbd232;
+            color: white; border: none;border-radius: 10px; font-size: 20px;">
+            Book Now</button>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="slide3.jpg" alt="New York" style="width:100%; height: 60vh;">
+        <div class="carousel-caption">
+            <button style="padding: 12px 25px;background-color: #fbd232;
+            color: white; border: none;border-radius: 10px; font-size: 20px;">
+            Book Now</button>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- ..............marque.............. -->
+  <div class="marque">
+    <marquee>Welcome to Home Services Lahore. Handyman services can be seen here</marquee>
+
+  </div>
+<!-- ...........services section............... -->
+
+
+
+<div class="container">
+    
+    <p class="text-center">We can handle professionally home and office Maintenance & Repair Construction, or Other Handyman Services in Lahore</p>
+    <h1 class="text-center h01">We Start only at Rs. 500 only!</h1>
+    <h2 class="text-center h02">We are offering following</h2>
+       <h1 class="text-center h03"> <span>Handyman</span> Services in  <span>Lahore</span></h1>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/lights.jpg" target="_blank">
+            <img src="./carpanter.png" class="card-img" alt="Lights" style="width:80%">
+            <div class="caption">
+                <button type="button" class="card-btn">Carpanter</button>
+             </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/nature.jpg" target="_blank">
+            <img src="./glass_window.png" alt="Nature" style="width:80%">
+            <div class="caption">
+                <button type="button" class="card-btn">Carpanter</button>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/fjords.jpg" target="_blank">
+            <img src="./carpanter.png" alt="Fjords" style="width:80%">
+            <div class="caption">
+                <button type="button" class="card-btn">Carpanter</button>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="/w3images/fjords.jpg" target="_blank">
+            <img src="./carpanter.png" alt="Fjords" style="width:80%">
+            <div class="caption">
+                <button type="button" class="card-btn">Carpanter</button>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ....... -->
+    <div class="row">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/w3images/lights.jpg" target="_blank">
+              <img src="./carpanter.png" class="card-img" alt="Lights" style="width:80%">
+              <div class="caption">
+                  <button type="button" class="card-btn">Carpanter</button>
+               </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/w3images/nature.jpg" target="_blank">
+              <img src="./glass_window.png" alt="Nature" style="width:80%">
+              <div class="caption">
+                  <button type="button" class="card-btn">Carpanter</button>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/w3images/fjords.jpg" target="_blank">
+              <img src="./carpanter.png" alt="Fjords" style="width:80%">
+              <div class="caption">
+                  <button type="button" class="card-btn">Carpanter</button>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/w3images/fjords.jpg" target="_blank">
+              <img src="./carpanter.png" alt="Fjords" style="width:80%">
+              <div class="caption">
+                  <button type="button" class="card-btn">Carpanter</button>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- ........... -->
+      <div class="row">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/w3images/lights.jpg" target="_blank">
+              <img src="./carpanter.png" class="card-img" alt="Lights" style="width:80%">
+              <div class="caption">
+                  <button type="button" class="card-btn">Carpanter</button>
+               </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/w3images/nature.jpg" target="_blank">
+              <img src="./glass_window.png" alt="Nature" style="width:80%">
+              <div class="caption">
+                  <button type="button" class="card-btn">Carpanter</button>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/w3images/fjords.jpg" target="_blank">
+              <img src="./carpanter.png" alt="Fjords" style="width:80%">
+              <div class="caption">
+                  <button type="button" class="card-btn">Carpanter</button>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/w3images/fjords.jpg" target="_blank">
+              <img src="./carpanter.png" alt="Fjords" style="width:80%">
+              <div class="caption">
+                  <button type="button" class="card-btn">Carpanter</button>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- ................ -->
+      <div class="row">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/w3images/lights.jpg" target="_blank">
+              <img src="./carpanter.png" class="card-img" alt="Lights" style="width:80%">
+              <div class="caption">
+                  <button type="button" class="card-btn">Carpanter</button>
+               </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/w3images/nature.jpg" target="_blank">
+              <img src="./glass_window.png" alt="Nature" style="width:80%">
+              <div class="caption">
+                  <button type="button" class="card-btn">Carpanter</button>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/w3images/fjords.jpg" target="_blank">
+              <img src="./carpanter.png" alt="Fjords" style="width:80%">
+              <div class="caption">
+                  <button type="button" class="card-btn">Carpanter</button>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="/w3images/fjords.jpg" target="_blank">
+              <img src="./carpanter.png" alt="Fjords" style="width:80%">
+              <div class="caption">
+                  <button type="button" class="card-btn">Carpanter</button>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<!-- ...........how it works.......... -->
+
+<div class="work-section">
+    <h1 class="text-center" style="padding-bottom: 50px; font-weight: 800;">How it Works?</h1>
+    <div class="row"  style="background-color:#fbd232; padding: 0px 30px;">
+      <div class="col-md-3">
+    <h3 style="font-weight: 700;">Book Service</h3>
+    </div>
+      <div class="col-md-3" >
+    <h3 style="font-weight: 700;">Handyman Arrives</h3>
+    </div>
+    <div class="col-md-3" >
+        <h3 style="font-weight: 700;">Job Done</h3>
+        </div>
+        <div class="col-md-3">
+            <h3 style="font-weight: 700;">Satisfaction Guranteed</h3>
+            </div>
+    </div>
+  </div>
+
+<!-- .....................Our Projects........ -->
+
+<section class="project">
+    <h1>Our Projects</h1>
+  <div class="progress-section">
+    <div class="progress-circle circle-1">155</div>
+    <div class="progress-circle circle-2">100</div>
+    <div class="progress-circle circle-3">160</div>
+    <div class="progress-circle circle-4">100</div>
+  </div>
+</section>
+
+
+<!-- ..............crousel.............. -->
+ <!-- ..............crousel.................... -->
+ <div class="container text-center"><h1  style="font-weight: 800;">Testimonials</h1></div>
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="white.jpg" alt="Los Angeles" style="width:100%; height: 20vh;">
+        <div class="carousel-caption">
+         <p  style="color: black;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Amet, perspiciatis ex. Neque, veniam iure facilis aliquid 
+             cupiditate recusandae blanditiis veritatis doloribus officiis 
+            architecto, et, ducimus unde voluptate necessitatibus hic. Optio!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="white.jpg" alt="Chicago" style="width:100%; height: 20vh;">
+        <div class="carousel-caption">
+            <p style="color: black;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Amet, perspiciatis ex. Neque, veniam iure facilis aliquid 
+                cupiditate recusandae blanditiis veritatis doloribus officiis 
+               architecto, et, ducimus unde voluptate necessitatibus hic. Optio!</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="white.jpg" alt="New York" style="width:100%; height: 20vh;">
+        <div class="carousel-caption">
+            <p  style="color: black;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Amet, perspiciatis ex. Neque, veniam iure facilis aliquid 
+                cupiditate recusandae blanditiis veritatis doloribus officiis 
+               architecto, et, ducimus unde voluptate necessitatibus hic. Optio!</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<!-- ................footer............ -->
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <img src="logo.png" alt="Company Logo">
+            <p>A full-service web design and digital marketing company 
+                in pakistan specializing in web development,
+                 SEO, and PPC to grow your revenue. Guaranteed.</p>
+        </div>
+
+        <div class="footer-section">
+            <h4>SOLUTIONS</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Contact Info</h4>
+            <ul>
+                <li>Phone: (123) 456-7890</li>
+                <li>Email: info@example.com</li>
+                <li>Street Address: 123 Main Street, City</li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Newsletter</h4>
+            <p>Subscribe newsletter to get updates.</p>
+            <div class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Enter your email">
+                <button class="submit-btn"><i class="fa-regular fa-paper-plane"></i></button>
+            </div>
+            <div class="social-icon">
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<section class="copyright">
+<div class="line-center"></div>
+<p>©Copyrights Reserved By: First Idea Web Development. | Proudly Designed with
+    <i class="fa-solid fa-heart" style="color: #10c98f;"></i> By<span style="color: #10c98f;">farid Developer</span>
+</p>
+</section>
+ <script src="script.js"></script>
+</body>
+</html>
